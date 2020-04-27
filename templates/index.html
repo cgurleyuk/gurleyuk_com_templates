@@ -1,17 +1,13 @@
 {% extends "base.html" %}
 {% load i18n %}
 
-{% block meta_title %}{% trans "Home" %}{% endblock %}
-{% block title %}{% trans "Home" %}{% endblock %}
+{% block meta_title %}Home{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block breadcrumb_menu %}
 <li class="active">{% trans "Home" %}</li>
 {% endblock %}
 
 {% block main %}
-{% blocktrans %}
-
-This is the index page we're going to edit to make pretty.
-
-{% endblocktrans %}
+<p>This is the index page we're going to edit to make pretty.</p>
 {% endblock %}
